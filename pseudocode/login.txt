@@ -1,0 +1,8 @@
+take input as user_id and password from user
+search for the user in database
+match corresponding password with password provided by the user
+if password match
+	redirect to home page
+else
+	prompt for re-entry
+	

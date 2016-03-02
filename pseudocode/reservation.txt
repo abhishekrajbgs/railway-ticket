@@ -1,0 +1,16 @@
+take input as source, destination, depart date, passenger_name,sex,age,passenger_id from user
+search for train
+if train available
+	check for time range
+	if time difference between depart time of train and current time is more han or equal to 2 hour
+		search for seat availablility
+		if seat available
+			ask for credit card no
+			insert records in database
+			display booking successfull messsage and ticket no and seat no.
+		if seat not availbale
+			prompt for check seat availability in any other available bus
+	if time diff is less than 2 hour
+		display message that booking cant be madefor selected train.
+if bus not available
+	display message that train is unavailable.

@@ -1,0 +1,6 @@
+take input as ticket_no and seat_no
+check if booking of given ticket was made by same user
+if booking of given ticket was made by same user
+		prompt cancel successfull message
+if booking of given ticket was not made by same user
+	display message that the ticket cant be cancelled as booking was not made by same user.

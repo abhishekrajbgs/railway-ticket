@@ -1,0 +1,8 @@
+Take input as user name, age, sex, user_id, password and mobile number from user.
+check whether already exists
+if not exist then
+	add all atributes to the database
+	redirect to login page.
+else
+	display message that user exists
+	redirect to login page
